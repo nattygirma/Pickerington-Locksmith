@@ -6,13 +6,10 @@ import logoUrl from '../../../../public/images/resumeZ-dark-logo.png';
 import darkLogoUrl from '../../../../public/images/resumeZ-logo.png';
 
 const useCaseMenu = [
-  { href: '/usecase/ai-wewriter', title: 'AI Rewriter' },
-  { href: '/usecase/ai-articel-writer', title: 'AI Articel Writer' },
-  { href: '/usecase/creative-writing', title: 'Creative writing' },
-  { href: '/usecase/content-generator', title: 'Content Generator' },
-  { href: '/usecase/ai-content-writing', title: 'AI Content Writing' },
-  { href: '/usecase/content-rewriter', title: 'Content Rewriter' },
-  { href: '/usecase/blog-post-writer', title: 'Blog Post Writer' },
+  { href: '/automotive', title: 'Automotive' },
+  { href: '/commercial', title: 'Commercial' },
+  { href: '/residential', title: 'Residential' },
+  { href: '/contact', title: 'Contact' },
 ];
 
 const aboutMenu = [
@@ -48,9 +45,9 @@ export default function FooterStyle4() {
                 variant="pe-xxl-5"
                 logoUrl={logoUrl}
                 darkLogoUrl={darkLogoUrl}
-                title="Save time. Get inspired."
+                title="Call Us."
                 titleClass="mb-3"
-                subTitle="CopyGen is an artificial intelligence trained to automate important tasks such as writing optimized product descriptions, high-converting ad copy, blog outlines, and more!"
+                subTitle="Local Lock Smith in Columbus, Ohio"
               />
             </div>
             <div className="col-xl">
@@ -75,7 +72,7 @@ export default function FooterStyle4() {
             <div className="row">
               <div className="col-md">
                 <Copyright
-                  copyrightText="Copyright © 2024. Template Made by"
+                  copyrightText="Copyright © 2024. Made by Habesha Garden"
                   copyrightLink="https://www.linkedin.com/in/natnael-girma-6240a8208/"
                   copyrightLinkText="Natnael"
                   variant="mb-2 mb-md-0"

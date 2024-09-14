@@ -50,9 +50,9 @@ export default function HomeTest() {
 in <span className='text-gradient-primary'>Columbus, Ohio</span>"
         subTitle="Automotive, Residential, & Commercial Lock & Key Services"
         bnt1Text="Call Us"
-        btn1Url="/index-s3"
+        btn1Url="/contact"
         btn2Text="Email Us"
-        btn2Url="/register"
+        btn2Url="/contact"
         alertMessage="<span className='text-primary'>*100% free </span> to get started. No credit card required."
         thumbImg={heroBanner}
       />
@@ -211,7 +211,7 @@ in <span className='text-gradient-primary'>Columbus, Ohio</span>"
         title="Ready to get started?"
         subTitle="We will be here to help you"
         btnText="Call Us"
-        btnLink="/login"
+        btnLink="/contact"
       />
     </>
     </>

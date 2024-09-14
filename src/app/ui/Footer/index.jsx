@@ -58,7 +58,7 @@ export default function Footer() {
                 darkLogoUrl={darkLogoUrl}
                 logoWidth="125"
                 logoHeight="26"
-                title="Save time. Get inspired."
+                title="Call Us, we will be there in a sec"
                 subTitle="Automatically genarate blog articles, website copy, landing
                 pages & digital ads for your business in seconds. Unleash
                 the most advanced AI writer to boost your traffic and

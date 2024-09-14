@@ -10,13 +10,14 @@ export default function TextWidget({
 }) {
   return (
     <div className={variant ? `block-text ${variant}` : 'block-text'}>
-      <Logo
+      {/* <Logo
         logoUrl={logoUrl}
         darkLogoUrl={darkLogoUrl}
         width={165}
         href="/"
         linkClasses="logo-link mb-4"
-      />
+      /> */}
+      <h2>Pickerington Local Locksmith</h2>
       {title && <h4 className={`title ${titleClass}`}>{title}</h4>}
       <p>{subTitle}</p>
     </div>

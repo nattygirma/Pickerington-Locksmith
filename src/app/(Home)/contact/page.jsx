@@ -22,37 +22,33 @@ export default function ContactS2() {
               <div className="col-xl-5 col-lg-6 col-md-8 text-lg-start text-center">
                 <div className="block-text pt-lg-4">
                   <h3 className="title h2">{`Let's talk`}</h3>
-                  <p>
-                    Must explain to you how all this mistaken idea of denouncing
-                    pleasure and praising born and I will give you a complete
-                    account of the system.
-                  </p>
+                  (614)-582-1232
                   <ul className="row gy-4 pt-4">
                     <li className="col-12">
                       <CardStyle5
                         title="Contact"
-                        subTitle="+(642) 342 762 44"
+                        subTitle="+(614)-582-1232"
                         iconClass="call-alt-fill"
                       />
                     </li>
                     <li className="col-12">
                       <CardStyle5
                         title="Email"
-                        subTitle="support@copygen.com"
+                        subTitle="247locallocksmithcolumbus@gmail.com"
                         iconClass="mail-fill"
                       />
                     </li>
                     <li className="col-12">
                       <CardStyle5
                         title="Office"
-                        subTitle="442 Belle Terre St Floor 7, San Francisco, AV 4206"
+                        subTitle="Columbus, Ohio"
                         iconClass="map-pin-fill"
                       />
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div className="card border-0 shadow-sm rounded-4">
                   <div className="card-body">
                     <h3 className="title fw-medium mb-4">
@@ -128,7 +124,7 @@ export default function ContactS2() {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

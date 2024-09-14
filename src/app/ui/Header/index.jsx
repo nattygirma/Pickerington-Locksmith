@@ -48,7 +48,10 @@ export default function Header({
       <div className="container">
         <div className="nk-header-wrap">
           <div className="nk-header-logo">
-            <Logo logoUrl={logoUrl} darkLogoUrl={darkLogoUrl} href="/" width={145}/>
+            {/* <Logo logoUrl={logoUrl} darkLogoUrl={darkLogoUrl} href="/" width={145}/> */}
+            <div className="namelogo">
+            <h3>Pickerington Local Locksmith</h3>
+            </div>
           </div>
  
           <div className="nk-header-toggle">

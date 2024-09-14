@@ -32581,6 +32581,7 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .nk-header-logo {
+  width: 60%;
   display: inline-flex;
   height: 2.5rem;
   align-items: center;
