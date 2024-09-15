@@ -10,13 +10,13 @@ export default function Copyright({
   return (
     <p className={`nk-copyright ${variant ? variant : ''}`}>
       {copyrightText}{' '}
-      <Link
+      {/* <Link
         target="_blank"
         href={copyrightLink}
         className={linkClasses ? linkClasses : ''}
       >
         {copyrightLinkText}
-      </Link>
+      </Link> */}
     </p>
   );
 }
