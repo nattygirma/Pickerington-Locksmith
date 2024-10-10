@@ -48,8 +48,7 @@ in <span className='text-gradient-primary'>Pickerington aand Surroundings</span>
             number="01"
             title="Automotive Locksmith"
             subtitle="Our mobile locksmith services are fast, affordable, and can be at your location immediately,
-             typically arriving within the hour or less. Providing automotive locksmith services in Columnus,
-             Ohio is one of our specialties. Contact us or learn more on our automotive locksmith services."
+             typically arriving within the hour or less. Providing automotive locksmith services in Pickerington is one of our specialties. Contact us or learn more on our automotive locksmith services."
             imgUrl={featuredImg1}
             svgBgUrl="/images/svgbg/1.svg"
             svgBgUrlClass="position-absolute top-0 start-0 mt-n5 ms-n3 me-6 z-index-n1"

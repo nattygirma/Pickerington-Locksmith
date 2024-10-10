@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import ModeSwitch from "../ModeSwitch";
 import ModeSwitchDark from "../ModeSwitchDark";
 import Button from "../Button";
-import DropDown from "./DropDown";
+// import DropDown from "./DropDown";
 import { usePathname } from "next/navigation";
 import Logo from "../Logo";
 import Icon from "../Icon";
@@ -12,23 +12,20 @@ import logoUrl from '../../../../public/images/resumeZ-dark-logo.png';
 import darkLogoUrl from '../../../../public/images/resumeZ-logo.png';
 
 export default function Header({
-  darkMode,
   varient,
-  // logoUrl,
-  // darkLogoUrl,
-  // LoggedIn,
-  loginBtn,
-  actionBtnText,
-  actionBtnUrl,
-  actionBtnClass,
   menuPosition,
 }) {
 
-  const LoggedIn = false;
+
   const pathname = usePathname();
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    // Close mobile menu when route changes
+    useEffect(() => {
+      setMobileToggle(false); // Close the menu when the route changes
+    }, [pathname]);
+  
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -41,7 +38,7 @@ export default function Header({
   }, []);
   return (
     <header
-      className={`nk-header-main nk-menu-main will-shrink ignore-mask ${
+      className={` nk-header-main nk-menu-main will-shrink ignore-mask ${
         mobileToggle ? "header-menu-shown" : ""
       } ${varient ? varient : ""} ${isSticky ? "has-fixed" : ""}`}
     >
@@ -99,7 +96,7 @@ export default function Header({
                   pathname === "/automotive" ? "active" : ""
                 }`}
               >
-                <Link className="nk-menu-link" href="/automotive">
+                  <Link className="nk-menu-link" href="/automotive" onClick={() => setMobileToggle(false)}>
                   Automotive
                 </Link>
               </li>

@@ -47,7 +47,7 @@ export default function FooterStyle4() {
                 darkLogoUrl={darkLogoUrl}
                 title="Call Us."
                 titleClass="mb-3"
-                subTitle="Local Lock Smith in Columbus, Ohio"
+                subTitle="Local Lock Smith in Pickerington and its Surrounding"
               />
             </div>
             <div className="col-xl">

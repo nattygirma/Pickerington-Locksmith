@@ -22,11 +22,11 @@ export default function HomeTest() {
   return (
     <>
      <>
-      <section className="section section-0 has-shape">
+      <section className="section section-0 has-shape ">
         <div className="nk-shape bg-shape-blur-d start-50 bottom-0" />
         <div className="nk-shape bg-shape-blur-e mt-n12 me-n10 end-50" />
       </section>
-      <section className="section section-lg section-bottom-0 has-shape">
+      <section className="section section-lg section-bottom-0 has-shape margin-bottom">
         <div className="nk-shape bg-shape-blur-g mt-n20p start-50" />
         <div className="nk-shape bg-shape-blur-h translate-middle-y top-50 end-50" />
         <div className="nk-shape bg-shape-blur-i mb-n30p bottom-0 start-50" />

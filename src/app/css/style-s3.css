@@ -32540,6 +32540,10 @@ textarea.form-control-lg {
 .nk-header {
   padding-top: 88px;
 }
+.nk-header-main.is-transparent {
+  background-color: transparent;
+  padding: 0px 0px ;
+}
 .nk-header-main {
   position: absolute;
   top: 0;
@@ -32553,9 +32557,7 @@ textarea.form-control-lg {
 .is-dark .nk-header-main:not(.is-transparent) {
   background-color: #1d1d51;
 }
-.nk-header-main.is-transparent {
-  background-color: transparent;
-}
+
 .nk-header-main.has-border {
   border-bottom: 1px solid #f4f7fa;
 }
@@ -32571,7 +32573,7 @@ textarea.form-control-lg {
   background: #1e1e54;
 }
 .nk-header-main.will-shrink.has-fixed {
-  padding: 0 0px;
+  padding: 0.75rem 0px;
 }
 .nk-header-wrap {
   position: relative;
