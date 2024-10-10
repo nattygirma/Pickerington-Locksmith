@@ -7,7 +7,7 @@ export default function SectionHeadingStyle3({
   containerWidthClass,
 }) {
   return (
-    <section className="nk-header bg-darker is-dark has-mask">
+    <section className="nk-header  has-mask">
       <div className="nk-mask bg-pattern-dot-white-sm bg-blend-bottom" />
       <div className="nk-page-head">
         <div className="container">

@@ -19,7 +19,7 @@ export default function ContactS2() {
         <div className="container">
           <div className="section-content">
             <div className="row g-gs justify-content-center justify-content-lg-between">
-              <div className="col-xl-5 col-lg-6 col-md-8 text-lg-start text-center">
+              <div className="col-xl-5 col-lg-6 col-md-8 text-lg-start text-center ">
                 <div className="block-text pt-lg-4">
                   <h3 className="title h2">{`Let's talk`}</h3>
                   (614)-582-1232
@@ -48,8 +48,19 @@ export default function ContactS2() {
                   </ul>
                 </div>
               </div>
-              {/* <div className="col-lg-6">
-                <div className="card border-0 shadow-sm rounded-4">
+               <div className="col-lg-6">
+               <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97966.24141379677!2d-82.74547864975526!3d39.88666709136412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88387ae56aa4f7e9%3A0x10fcb9f0430f407b!2sPickerington%2C%20OH!5e0!3m2!1sen!2sus!4v1728600787368!5m2!1sen!2sus"
+  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196735.6177041502!2d-83.03711933608328!3d39.91812775023101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88387ae56aa4f7e9%3A0x10fcb9f0430f407b!2sPickerington%2C%20OH!5e0!3m2!1sen!2sus!4v1728600230523!5m2!1sen!2sus"
+  width="100%"
+  height="350"
+  style={{ border: 10 }}  // Correct JSX style prop format
+  allowFullScreen=""  // Use camelCase for allowFullScreen in JSX
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"  // Also camelCase
+></iframe>
+                </div>
+                {/*<div className="card border-0 shadow-sm rounded-4">
                   <div className="card-body">
                     <h3 className="title fw-medium mb-4">
                       Please feel free to contact us using form below
