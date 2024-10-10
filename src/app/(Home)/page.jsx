@@ -18,28 +18,7 @@ import featuredImg1 from '../../../public/images/new/car.jpeg';
 import featuredImg2 from '../../../public/images/new/door.jpeg';
 import featuredImg3 from '../../../public/images/new/store.jpeg';
 
-const accordionData = [
-  {
-    question: 'What is a resumeZ?',
-    answer:
-      "It is one of the multipurpose funcationalites of our website that aims to help students and working professionals to excell in the professional field like a pro!",
-  },
-  {
-    question: 'Is it really for free?',
-    answer:
-      "Yes, We don't charge to generate your resume.",
-  },
-  {
-    question: 'How does it work?',
-    answer:
-      "Users simply need to sign up for an account, fill in their personal details, education, work experience, and skills. Our resume builder tool then formats this information into a polished and professional-looking resume.",
-  },
-  {
-    question: 'Is my data safe?',
-    answer:
-      "Absolutely. We take data privacy and security very seriously. Your information is encrypted and stored securely on our servers. We do not share your personal data with third parties without your consent.",
-  },
-];
+
 
 export default function HomeTest() {
   return (
@@ -47,7 +26,7 @@ export default function HomeTest() {
      <>
       <HeroStyle3
         title="Professional Locksmith
-in <span className='text-gradient-primary'>Columbus, Ohio</span>"
+in <span className='text-gradient-primary'>Pickerington aand Surroundings</span>"
         subTitle="Automotive, Residential, & Commercial Lock & Key Services"
         bnt1Text="Call Us"
         btn1Url="/contact"
@@ -94,7 +73,7 @@ in <span className='text-gradient-primary'>Columbus, Ohio</span>"
             number="03"
             title="Commercial Locksmith"
             subtitle="We want to ensure your business is locked tight and secure.
-             Westerville Mobile Locksmith technicians will bring their experience to 
+             Pickerington aand Surroundings Locksmith technicians will bring their experience to 
              provide the best in service at an affordable cost.
              Learn more about our commercial locksmith services."
             imgUrl={featuredImg3}
@@ -213,6 +192,18 @@ in <span className='text-gradient-primary'>Columbus, Ohio</span>"
         btnText="Call Us"
         btnLink="/contact"
       />
+      {/* <GoogleMapComponent /> */}
+      {/* <MapComponent /> */}
+      <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97966.24141379677!2d-82.74547864975526!3d39.88666709136412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88387ae56aa4f7e9%3A0x10fcb9f0430f407b!2sPickerington%2C%20OH!5e0!3m2!1sen!2sus!4v1728600787368!5m2!1sen!2sus"
+  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196735.6177041502!2d-83.03711933608328!3d39.91812775023101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88387ae56aa4f7e9%3A0x10fcb9f0430f407b!2sPickerington%2C%20OH!5e0!3m2!1sen!2sus!4v1728600230523!5m2!1sen!2sus"
+  width="100%"
+  height="350"
+  style={{ border: 10 }}  // Correct JSX style prop format
+  allowFullScreen=""  // Use camelCase for allowFullScreen in JSX
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"  // Also camelCase
+></iframe>
     </>
     </>
   );
