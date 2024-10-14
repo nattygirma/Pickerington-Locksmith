@@ -7,15 +7,15 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata = {
   title: {
     absolute: '',
-    default: 'ResumeZ - Free resume builder powered by AI',
+    default: 'Pickerington Local Locksmith',
     template:
-      '%s | ResumeZ - Free resume builder powered by AI',
+      '%s | Pickerington Local Locksmith',
   },
-  description: 'Free resume builder powered by AI',
+  description: 'Local Locksmith Around Locksmith',
   openGraph: {
-    title: 'ResumeZ - Free resume builder powered by AI',
+    title: 'Pickerington Local Locksmith',
     description:
-      'ResumeZ - Free resume builder powered by AI',
+      'Pickerington Local Locksmith',
     images: ['/openGraphImage.jpeg'],
   },
 };
